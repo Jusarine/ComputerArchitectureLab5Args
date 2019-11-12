@@ -19,7 +19,7 @@ int main (int argc, char *argv[]) {
 
     const struct option long_options[] = {
             {"help",no_argument,nullptr,'h'},
-            {"list",required_argument,nullptr,'l'},
+            {"list",optional_argument,nullptr,'l'},
             {"version",optional_argument,nullptr,'v'},
             {nullptr,0,nullptr,0}
     };
